@@ -143,6 +143,24 @@ footer {
     .hero h1 {font-size:28px;}
 }
 </style>
+    .destination-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.destination-card {
+    background:#16261b;
+    padding:20px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.destination-card:hover {
+    transform:translateY(-5px);
+}
+
 
 <!-- Structured Data -->
 <script type="application/ld+json">
@@ -215,10 +233,6 @@ footer {
 
 <h1>Cannabis Cambridge UK – Global Cannabis Tourism Guide</h1>
 
-<p>
-Cannabis Cambridge UK is a trusted global cannabis tourism platform based in Cambridge UK,
-offering educational resources, destination guides, and insights into legal cannabis travel worldwide.
-</p>
 
 <a href="#locations" class="btn">Explore Global Destinations</a>
 
@@ -253,48 +267,85 @@ offering educational resources, destination guides, and insights into legal cann
 <section id="locations">
 
 <h2>Top Cannabis Travel Destinations Worldwide</h2>
+<p>
+Cannabis Cambridge UK provides educational guidance on legal cannabis travel.
+Always verify local regulations before consuming or purchasing cannabis products.
+</p>
 
-<h3>Europe</h3>
-<ul>
-<li>Amsterdam</li>
-<li>Barcelona</li>
-<li>Berlin</li>
-<li>Lisbon</li>
-<li>Zurich</li>
-<li>Prague</li>
-<li>Malta</li>
-<li>Luxembourg</li>
-<li>Copenhagen</li>
-<li>London</li>
-</ul>
+<div class="destination-grid">
 
-<h3>North America</h3>
-<ul>
-<li>Denver</li>
-<li>Los Angeles</li>
-<li>Las Vegas</li>
-<li>Seattle</li>
-<li>Portland</li>
-<li>Toronto</li>
-<li>Vancouver</li>
-<li>Montreal</li>
-<li>Mexico City</li>
-<li>Cancun</li>
-</ul>
+<!-- EUROPE -->
+<div class="destination-card">
+<h3>Amsterdam, Netherlands</h3>
+<p><strong>Travel Tip:</strong> Cannabis is tolerated in licensed coffee shops only. Public consumption is restricted in some districts. Never purchase from street dealers.</p>
+</div>
 
-<h3>Asia</h3>
-<ul>
-<li>Bangkok</li>
-<li>Phuket</li>
-<li>Chiang Mai</li>
-<li>Kathmandu</li>
-<li>Goa</li>
-<li>Tokyo</li>
-<li>Seoul</li>
-<li>Manila</li>
-<li>Kuala Lumpur</li>
-<li>Tel Aviv</li>
-</ul>
+<div class="destination-card">
+<h3>Barcelona, Spain</h3>
+<p><strong>Travel Tip:</strong> Cannabis is permitted in private cannabis clubs. Tourists must be invited by a member; public consumption is illegal.</p>
+</div>
+
+<div class="destination-card">
+<h3>Berlin, Germany</h3>
+<p><strong>Travel Tip:</strong> Germany has evolving cannabis regulations. Consumption rules vary; check current federal guidelines before travel.</p>
+</div>
+
+<div class="destination-card">
+<h3>Lisbon, Portugal</h3>
+<p><strong>Travel Tip:</strong> Portugal decriminalized possession for personal use but does not allow open public sales. Respect possession limits.</p>
+</div>
+
+<div class="destination-card">
+<h3>Zurich, Switzerland</h3>
+<p><strong>Travel Tip:</strong> Low-THC cannabis products are legal. High-THC cannabis remains regulated under strict pilot programs.</p>
+</div>
+
+<!-- NORTH AMERICA -->
+<div class="destination-card">
+<h3>Denver, USA</h3>
+<p><strong>Travel Tip:</strong> Cannabis is legal for adults 21+. Consumption is limited to private property or licensed lounges. Do not cross state lines with cannabis.</p>
+</div>
+
+<div class="destination-card">
+<h3>Los Angeles, USA</h3>
+<p><strong>Travel Tip:</strong> Licensed dispensaries require ID. Public use is illegal. Delivery services are common but must be legally registered.</p>
+</div>
+
+<div class="destination-card">
+<h3>Toronto, Canada</h3>
+<p><strong>Travel Tip:</strong> Cannabis is federally legal in Canada. Purchase only from licensed stores. Airports prohibit carrying cannabis internationally.</p>
+</div>
+
+<div class="destination-card">
+<h3>Vancouver, Canada</h3>
+<p><strong>Travel Tip:</strong> Legal retail shops are widely available. Consumption rules vary by municipality—avoid parks and public spaces.</p>
+</div>
+
+<!-- ASIA -->
+<div class="destination-card">
+<h3>Bangkok, Thailand</h3>
+<p><strong>Travel Tip:</strong> Cannabis laws have shifted recently. Recreational use may be restricted again; verify current policy before travel.</p>
+</div>
+
+<div class="destination-card">
+<h3>Phuket, Thailand</h3>
+<p><strong>Travel Tip:</strong> Licensed dispensaries operate, but public smoking can lead to fines. Always consume privately.</p>
+</div>
+
+<div class="destination-card">
+<h3>Kathmandu, Nepal</h3>
+<p><strong>Travel Tip:</strong> Cannabis remains illegal despite historic associations. Avoid possession to prevent legal consequences.</p>
+</div>
+
+<div class="destination-card">
+<h3>Tel Aviv, Israel</h3>
+<p><strong>Travel Tip:</strong> Israel has a strong medical cannabis program. Recreational use remains restricted under regulatory frameworks.</p>
+</div>
+
+</div>
+
+</section>
+
 
 </section>
 
